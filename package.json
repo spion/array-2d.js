@@ -1,0 +1,17 @@
+{
+  "name": "array-2d",
+  "version": "1.0.0",
+  "description": "Fast 2d array suitable for dynamic programming",
+  "main": "array-2d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fast",
+    "2d",
+    "array",
+    "dynamic"
+  ],
+  "author": "spion",
+  "license": "ISC"
+}
