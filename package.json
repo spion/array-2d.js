@@ -1,6 +1,6 @@
 {
   "name": "array-2d",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast 2d array suitable for dynamic programming",
   "main": "array-2d.js",
   "scripts": {
