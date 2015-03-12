@@ -14,11 +14,10 @@ function allocInit(len, val) {
 // A generic 2d array with a configurable allocator. 
 function makeArray2d(allocInit) {
     function Array2d(m, n, initial) {
-        this.val = initial;
         this.m = m;
         this.n = n;
         this.length = m * n;
-        this.a = allocInit(this.length, 0);
+        this.a = allocInit(this.length, initial);
     }
 
     Array2d.prototype.get = function(i, j) {
